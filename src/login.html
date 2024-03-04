@@ -1,8 +1,3 @@
-<!-- TODO 0: Do not forget  : to run tailwind and use it you need to run this command in terminal :  npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
-
-<!-- TODO 1: now we are ready to build our LOG IN Page-->
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,19 +12,23 @@
       rel="stylesheet"
     />
   </head>
-  <body class="flex font-poppins items-center justify-center min-h-screen">
-    <div id="back-div" class="bg-gradient-to-r from-blue-500 to-purple-500 rounded-[26px]">
+  <body
+    class="flex font-poppins items-center justify-center min-w-screen min-h-screen"
+  >
+    <div
+      id="back-div"
+      class="bg-gradient-to-r from-blue-500 to-purple-500 rounded-[26px] m-4"
+    >
       <div
-        class="border-[20px] border-transparent rounded-[20px] bg-white shadow-lg h-[550px] max-w-md p-10 m-2"
+        class="border-[20px] border-transparent rounded-[20px] bg-white shadow-lg h-[630px] max-w-md p-10 m-2"
       >
-        <h1 class="pt-8 pb-6 font-bold text-5xl text-center">Log in
-        </h1>
+        <h1 class="pt-8 pb-6 font-bold text-5xl text-center cursor-default">Log in</h1>
         <form action="#" method="post" class="space-y-4">
           <div>
             <label for="email" class="mb-2 text-lg">Email</label>
             <input
               id="email"
-              class="border p-3 shadow-md placeholder:text-base border-gray-300 rounded-lg w-full"
+              class="border p-3 shadow-md placeholder:text-base focus:scale-105 ease-in-out duration-300 border-gray-300 rounded-lg w-full"
               type="email"
               placeholder="Email"
               required
@@ -39,54 +38,136 @@
             <label for="password" class="mb-2 text-lg">Password</label>
             <input
               id="password"
-              class="border p-3 shadow-md placeholder:text-base border-gray-300 rounded-lg w-full"
+              class="border p-3 mb-2 shadow-md placeholder:text-base focus:scale-105 ease-in-out duration-300 border-gray-300 rounded-lg w-full"
               type="password"
               placeholder="Password"
               required
             />
           </div>
+          <a
+          class="group text-blue-400 transition-all duration-100 ease-in-out"
+          href="#"
+        >
+          <span
+            class="bg-left-bottom bg-gradient-to-r text-sm from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+          >
+          Forget your password?
+          </span>
+        </a>
           <button
-            class="bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg mt-6 p-2 text-white rounded-lg w-full"
+            class="bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg mt-6 p-2 text-white rounded-lg w-full hover:scale-105 hover:from-purple-500 hover:to-blue-500 transition duration-300 ease-in-out"
             type="submit"
           >
             LOG IN
           </button>
         </form>
-
+        <div class="flex flex-col mt-4 items-center justify-center text-sm">
+          <h3 class="">
+            Don't have an account?
+            <a
+              class="group text-blue-400 transition-all duration-100 ease-in-out"
+              href="#"
+            >
+              <span
+                class="bg-left-bottom bg-gradient-to-r from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+              >
+                Sign Up
+              </span>
+            </a>
+          </h3>
+        </div>
         <!-- Third Party Authentication Options -->
         <div
           id="third-party-auth"
-          class="flex items-center justify-center mt-10"
+          class="flex items-center justify-center mt-5"
         >
-          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+          <button
+            href="#"
+            class="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
+          >
             <img
               class="max-w-[25px]"
               src="./img/logos/google.svg"
               alt="Google"
             />
           </button>
-          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+          <button
+            href="#"
+            class="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
+          >
             <img
               class="max-w-[25px]"
               src="./img/logos/linkedin.svg"
               alt="Linkedin"
             />
           </button>
-          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+          <button
+            href="#"
+            class="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
+          >
             <img
               class="max-w-[25px]"
               src="./img/logos/github.svg"
               alt="Github"
             />
           </button>
-          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+          <button
+            href="#"
+            class="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
+          >
             <img
               class="max-w-[25px]"
               src="./img/logos/facebook.svg"
               alt="Facebook"
             />
           </button>
+          <button
+            href="#"
+            class="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
+          >
+            <img
+              class="max-w-[25px]"
+              src="./img/logos/twitter.svg"
+              alt="twitter"
+            />
+          </button>
+
+          <button
+            href="#"
+            class="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
+          >
+            <img class="max-w-[25px]" src="./img/logos/apple.svg" alt="apple" />
+          </button>
         </div>
+
+        <div
+        class="text-gray-500 flex text-center flex-col mt-4 items-center text-sm"
+      >
+        <p class="cursor-default">
+          By signing in, you agree to our
+          <a
+            class="group text-blue-400 transition-all duration-100 ease-in-out"
+            href="#"
+          >
+            <span
+              class="cursor-pointer bg-left-bottom bg-gradient-to-r from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+            >
+              Terms
+            </span>
+          </a>
+          and
+          <a
+            class="group text-blue-400 transition-all duration-100 ease-in-out"
+            href="#"
+          >
+            <span
+              class="cursor-pointer bg-left-bottom bg-gradient-to-r from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+            >
+              Privacy Policy
+            </span>
+          </a>
+        </p>
+      </div>
       </div>
     </div>
   </body>
