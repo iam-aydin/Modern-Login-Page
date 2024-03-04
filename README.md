@@ -20,6 +20,6 @@ A sleek and modern login page design to enhance your web applications! 💻✨
 Contributions are welcome! If you'd like to improve this project, feel free to submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See [![LICENSE]](./LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
 
 
