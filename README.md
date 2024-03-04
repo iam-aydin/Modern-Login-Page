@@ -21,5 +21,5 @@ Contributions are welcome! If you'd like to improve this project, feel free to s
 
 ## License
 This project is licensed under the MIT License. See LICENSE for details.
-[![License: MIT](https://img.shields)](./LIECENSE)
+[![License: MIT]](./LICENSE)
 
