@@ -1,0 +1,90 @@
+<!-- TODO 0: Do not forget  : to run tailwind and use it you need to run this command in terminal :  npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex font-poppins items-center justify-center min-h-screen">
+    <div id="back-div" class="bg-gradient-to-r from-blue-500 to-purple-500 rounded-[26px]">
+      <div
+        class="border-[20px] border-transparent rounded-[20px] bg-white shadow-lg h-[550px] max-w-md p-10 m-2"
+      >
+        <h1 class="pt-8 pb-6 font-bold text-5xl text-center">Sign Up</h1>
+        <form action="#" method="post" class="space-y-4">
+          <div>
+            <label for="email" class="mb-2 text-lg">Email</label>
+            <input
+              id="email"
+              class="border p-3 shadow-md placeholder:text-base border-gray-300 rounded-lg w-full"
+              type="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div>
+            <label for="password" class="mb-2 text-lg">Password</label>
+            <input
+              id="password"
+              class="border p-3 shadow-md placeholder:text-base border-gray-300 rounded-lg w-full"
+              type="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button
+            class="bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg mt-6 p-2 text-white rounded-lg w-full"
+            type="submit"
+          >
+            Sign Up
+          </button>
+        </form>
+
+        <!-- Third Party Authentication Options -->
+        <div
+          id="third-party-auth"
+          class="flex items-center justify-center mt-10"
+        >
+          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+            <img
+              class="max-w-[25px]"
+              src="./img/logos/google.svg"
+              alt="Google"
+            />
+          </button>
+          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+            <img
+              class="max-w-[25px]"
+              src="./img/logos/linkedin.svg"
+              alt="Linkedin"
+            />
+          </button>
+          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+            <img
+              class="max-w-[25px]"
+              src="./img/logos/github.svg"
+              alt="Github"
+            />
+          </button>
+          <button href="#" class="shadow-lg p-2 rounded-lg m-1">
+            <img
+              class="max-w-[25px]"
+              src="./img/logos/facebook.svg"
+              alt="Facebook"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
