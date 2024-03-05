@@ -1,8 +1,4 @@
 # Modern Login Page
-<div align="center" style="display:flex; justify-content: center; margin:20px;">
-   <img width="300px" height="200px" src="https://tailwindflex.com/public/images/thumbnails/modern-login-page/canvas.min.webp?v=1">
-   <img width="300px" height="200px" src="https://tailwindflex.com/public/images/thumbnails/modern-sign-up-page/canvas.min.webp?v=1">
-</div>
 
 Create an inviting and efficient login experience for your users with this sleek and modern login page design. Whether you're building an e-commerce platform, a social network, or any web application, these enhancements will elevate your user interface. Let's dive in! 💻✨
 
@@ -47,4 +43,4 @@ This project is licensed under the **MIT License**. For detailed information, re
 
 Remember, a well-designed login page sets the tone for the entire user experience. Keep it simple, elegant, and functional! 🚀🔑
 
-**Get started now**: [Login Page](https://tailwindcss.com/docs/installation)
+**Get started now**: [Here](https://tailwindcss.com/docs/installation)
