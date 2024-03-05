@@ -1,7 +1,7 @@
 # Modern Login Page
-<div align="center" style="display:flex; justify-content: center;">
-   <img width="450px" height="300px" src="https://tailwindflex.com/public/images/thumbnails/modern-login-page/canvas.min.webp?v=1">
-   <img width="450px" height="300px" src="https://tailwindflex.com/public/images/thumbnails/modern-sign-up-page/canvas.min.webp?v=1">
+<div align="center" style="display:flex; justify-content: center; margin:20px;">
+   <img width="300px" height="200px" src="https://tailwindflex.com/public/images/thumbnails/modern-login-page/canvas.min.webp?v=1">
+   <img width="300px" height="200px" src="https://tailwindflex.com/public/images/thumbnails/modern-sign-up-page/canvas.min.webp?v=1">
 </div>
 
 Create an inviting and efficient login experience for your users with this sleek and modern login page design. Whether you're building an e-commerce platform, a social network, or any web application, these enhancements will elevate your user interface. Let's dive in! 💻✨
